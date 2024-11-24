@@ -1,0 +1,25 @@
+/* Source: business-blog-generator/src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  
+ 
+.markdown-container h1, .markdown-container h2 {
+    font-size: 30, 24;
+    color: #ffffff; /* Adjust as needed */
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+.markdown-container p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+.markdown-container strong {
+    font-weight: bold;
+  }
+  
